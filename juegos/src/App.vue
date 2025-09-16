@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Landing Page Juegos</h1>
+    <h1>Pagina de nuestros juegos favoritos</h1>
     <Darksouls />
     <Portal />
   </div>

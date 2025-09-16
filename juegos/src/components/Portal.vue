@@ -6,6 +6,8 @@
       Portal es un juego de lógica en primera persona creado por Valve. 
       Usa la pistola de portales para resolver acertijos, 
       mientras una inteligencia artificial llamada GLaDOS pone a prueba tu ingenio.
+
+      (Recomentado por Benjamin :>)
     </p>
     <button @click="verTrailer">Ver tráiler</button>
   </section>
