@@ -1,18 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <h1>Landing Page Juegos</h1>
+    <Darksouls />
+    <Portal />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Darksouls from './components/Darksouls.vue'
+import Portal from './components/Portal.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  components: { Darksouls, Portal }
 }
 </script>
+
 
 <style>
 #app {
