@@ -5,6 +5,8 @@
     <p>
       Dark Souls es un juego de rol de acción conocido por su dificultad extrema, 
       combates estratégicos y un mundo oscuro y misterioso que desafía a cada jugador.
+
+      (Recomentado por Uriel :)
     </p>
     <button @click="verMas">Ver más</button>
   </section>
