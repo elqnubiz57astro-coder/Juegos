@@ -1,29 +1,12 @@
 <template>
-  <section class="games">
-    <h2>Favoritos de FromSoftware</h2>
-
-    <!-- Dark Souls -->
-    <div class="game-card">
-      <h3>Dark Souls</h3>
-      <img src="@/assets/darksouls.jpg" alt="Dark Souls portada" class="game-cover" />
-      <p>
-        Dark Souls es un juego de rol de acción conocido por su dificultad extrema, 
-        combates estratégicos y un mundo oscuro y misterioso que desafía a cada jugador.
-      </p>
-      <button @click="verTrailer('dark')">Ver tráiler</button>
-    </div>
-
-    <!-- Elden Ring -->
-    <div class="game-card">
-      <h3>Elden Ring</h3>
-      <img src="@/assets/eldenring.jpg" alt="Elden Ring portada" class="game-cover" />
-      <p>
-        Elden Ring es el sucesor espiritual de Dark Souls, 
-        creado por FromSoftware junto a George R.R. Martin. 
-        Un vasto mundo abierto lleno de secretos, jefes épicos y libertad de exploración.
-      </p>
-      <button @click="verTrailer('elden')">Ver tráiler</button>
-    </div>
+  <section class="darksouls">
+    <h2>Dark Souls</h2>
+    <img src="@/assets/darksouls.jpg" alt="Dark Souls portada" class="game-cover" />
+    <p>
+      Dark Souls es un juego de rol de acción conocido por su dificultad extrema, 
+      combates estratégicos y un mundo oscuro y misterioso que desafía a cada jugador.
+    </p>
+    <button @click="verMas">Ver más</button>
   </section>
 </template>
 
