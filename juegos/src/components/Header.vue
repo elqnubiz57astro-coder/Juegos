@@ -1,6 +1,6 @@
 <template>
   <header class="header">
-    <img src="@/assets/logo.png" alt="Logo Gaming Zone" class="logo" />
+    <img src="@/assets/logo_game.jpg" alt="Logo Gaming Zone" class="logo" />
     <h1>Gaming Zone</h1>
     <p>Recopilación de juegos favoritos 🎮🔥</p>
   </header>
